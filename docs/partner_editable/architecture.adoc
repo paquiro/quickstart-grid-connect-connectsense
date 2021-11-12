@@ -14,3 +14,5 @@ As shown in <<architecture1>>, the Quick Start sets up the following:
 * AWS IoT Core to publish the device metrics.
 * AWS IoT Analytics to provide a pipeline, channel, data store, and dataset for processing the device metrics.
 * Amazon QuickSight to provide a dashboard for data visualization.
+* An AWS SiteWise asset model.
+* AWS SageMaker for Machine Learning models.
