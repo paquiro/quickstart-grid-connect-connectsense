@@ -1,5 +1,5 @@
 :xrefstyle: short
-== Post-deployment steps
+== Postdeployment steps
 
 After you've deployed the stack, you must retrieve the API Gateway URL and API key so that you can configure your {partner-product-short-name}. After you retrieve these values, you use them to connect any {partner-product-short-name} to the IoT endpoint, as described in the following sections.
 
