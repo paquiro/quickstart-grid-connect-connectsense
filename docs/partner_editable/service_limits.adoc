@@ -4,12 +4,12 @@
 
 // Space needed to maintain table headers
 |IAM roles | 3
-|API Gateway |1
-|API Gateway API key |1
+|API Gateways |1
+|API Gateway API keys |1
 |API Gateway endpoints |2
 |Lambda functions |2
 |AWS IoT Core topic rules |2
-|AWS IoT Analytics channel |1
-|AWS IoT Analytics data store |1
-|Amazon SNS topic |1
+|AWS IoT Analytics channels |1
+|AWS IoT Analytics data stores |1
+|Amazon SNS topics |1
 |===

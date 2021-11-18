@@ -30,7 +30,7 @@ image::../images/cloudformation-apikey.png[CloudFormation API key, 60%]
 To configure your {partner-product-short-name}, you need the Python script that's maintained and hosted by ConnectSense in their GitHub repository. 
 
 . Download the https://github.com/connectsense/quickstart-devkit-device-connection[ConnectSense Device Connection repository^], and retrieve the script. 
-. Follow the configuration steps in the repository. You need the API Gateway URL and the API key that you retrieved earlier. (See link:#_retrieve_the_api_gateway_url_and_api_key[Retrieve the API Gateway URL and API key].)
+. Follow the configuration steps in the repository. You need the API Gateway URL and the API key that you retrieved earlier. (See link:#_retrieve_the_api_gateway_url_and_api_key[Retrieve the API Gateway URL and API key], previously in this guide.)
 
 === Create an Amazon QuickSight dashboard
 
@@ -67,4 +67,4 @@ You now see the watts plotted something like <<quicksight-data-viz>>:
 [link=images/quicksight-data-visualization.png]
 image::../images/quicksight-data-visualization.png[QuickSight data visualization]
 
-NOTE: If you need to grant QuickSight access to AWS IoT Analytics, follow the steps documented here: https://docs.aws.amazon.com/iotanalytics/latest/userguide/data-visualization.html#visualization-quicksight[Visualizing AWS IoT Analytics data with Amazon QuickSight^].
+NOTE: To grant QuickSight access to AWS IoT Analytics, see https://docs.aws.amazon.com/iotanalytics/latest/userguide/data-visualization.html#visualization-quicksight[Visualizing AWS IoT Analytics data with Amazon QuickSight^].
