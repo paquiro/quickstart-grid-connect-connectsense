@@ -1,3 +1,5 @@
 // Edit this placeholder text to accurately describe your architecture.
 
-This Quick Start provides one deployment option, which builds a new Amazon API Gateway and provisions AWS IoT Analytics in your account, with the option to deploy AWS IoT SiteWise.
+This Quick Start provides one deployment option:
+
+* https://fwd.aws/9b3pd[Deploy {partner-product-short-name}]. This option builds a new Amazon API Gateway and provisions AWS IoT Analytics in your account, with the option to deploy AWS IoT SiteWise.

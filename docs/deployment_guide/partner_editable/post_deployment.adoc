@@ -1,3 +1,32 @@
 //Include any post-deployment steps here, such as steps necessary to test that the deployment was successful. If there are no post-deployment steps leave this file empty.
 
 == Post deployment steps
+
+== Retrieve the API Gateway URL and API key
+
+. Open the AWS CloudFormation console, and choose your deployed stack. 
+. Retrieve the API Gateway URL.
+.. Choose the *Outputs* tab.
+.. Copy the value of the *ApiGatewayURL* key, and save the value for use in configuring your {partner-product-short-name}.
+. Retrieve the API key's physical ID.
+.. Choose the *Resources* tab.
+.. In the *Logical ID* column, find *ApiKey*, and choose its *Physical ID* link. For example, see the circled link in <<api-key-id>>.
++
+[#api-key-id]
+.AWS CloudFormation stack showing the link to the API key's physical ID
+[link=../docs/deployment_guide/images/cloudformation-stack.png]
+image::../docs/deployment_guide/images/cloudformation-stack.png[CloudFormation Stack, 80%]
++
+.. Next to *API key*, choose *Show*, as shown in <<api-key>>. This reveals the ID value required for registering your physical device. Save this value for use in configuring your {partner-product-short-name}.
++
+[#api-key]
+.API Gateway, API key
+[link=../docs/deployment_guide/images/cloudformation-apikey.png]
+image::../docs/deployment_guide/images/cloudformation-apikey.png[CloudFormation API key, 60%]
+
+=== Configure the {partner-product-short-name} with your new IoT endpoint
+
+To configure your {partner-product-short-name}, you need the Python script that's maintained and hosted by ConnectSense in their GitHub repository. 
+
+. Download the https://github.com/connectsense/quickstart-devkit-device-connection[ConnectSense Device Connection repository^], and retrieve the script. 
+. Follow the configuration steps in the repository. You need the API Gateway URL and the API key that you retrieved earlier. (See link:#_retrieve_the_api_gateway_url_and_api_key[Retrieve the API Gateway URL and API key], previously in this guide.)
