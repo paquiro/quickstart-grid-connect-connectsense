@@ -4,7 +4,7 @@ Deploying this Quick Start with default parameters builds the following {partner
 
 [#architecture1]
 .Architecture for the {partner-product-name} Quick Start on AWS
-image::../deployment_guide/images/connectsense-spc-architecture-diagram.png[Architecture, 75%]
+image::../docs/deployment_guide/images/connectsense-spc-architecture-diagram.png[Architecture, 75%]
 
 As shown in <<architecture1>>, the Quick Start sets up the following:
 
