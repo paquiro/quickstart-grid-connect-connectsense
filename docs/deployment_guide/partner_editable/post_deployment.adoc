@@ -33,4 +33,4 @@ To configure your {partner-product-short-name}, you need the Python script that'
 
 
 == Operational
-For help with operational tasks such as creating a QuickSight dashboard, see the ./operational/index.html[Operational guide].
+For help with operational tasks such as creating a QuickSight dashboard, see the https://aws-quickstart.github.io/quickstart-grid-connect-connectsense/operational/index.html[Operational guide].
