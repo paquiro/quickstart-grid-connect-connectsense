@@ -2,7 +2,7 @@
 
 == Postdeployment steps
 
-==+ Retrieve the API Gateway URL and API key
+=== Retrieve the API Gateway URL and API key
 
 . Open the AWS CloudFormation console, and choose your deployed stack. 
 . Retrieve the API Gateway URL.
@@ -30,3 +30,7 @@ To configure your {partner-product-short-name}, you need the Python script that'
 
 . Download the https://github.com/connectsense/quickstart-devkit-device-connection[ConnectSense Device Connection repository^], and retrieve the script. 
 . Follow the configuration steps in the repository. You need the API Gateway URL and the API key that you retrieved earlier. (See link:#_retrieve_the_api_gateway_url_and_api_key[Retrieve the API Gateway URL and API key], previously in this guide.)
+
+
+== Operational
+For help with operational tasks such as creating a QuickSight dashboard, see the ./operational/index.html[Operational guide].
