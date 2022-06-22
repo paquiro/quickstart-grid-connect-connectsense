@@ -9,7 +9,7 @@ importlib-metadata==4.8.1
 jmespath==0.10.0
 multiprocess==0.70.12.2
 mypy-extensions==0.4.3
-numpy==1.21.2
+numpy==1.22.0
 packaging==21.0
 pandas==1.1.5
 pathos==0.2.8
