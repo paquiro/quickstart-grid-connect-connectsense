@@ -220,7 +220,7 @@ Resources:
   DevKitDevicePolicy:
     Type: AWS::IoT::Policy
     Properties:
-      PolicyName: !Sub ${AWS::StackName}-device-policy
+      PolicyName: devkit-device-policy
       PolicyDocument:
         Version: '2012-10-17'
         Statement:
@@ -314,7 +314,7 @@ Resources:
       Timeout: 300
       Environment:
         Variables:
-          DEVICE_POLICY: !Sub ${AWS::StackName}-device-policy
+          DEVICE_POLICY: devkit-device-policy
       Events:
         ApiEvent:
           Type: Api
